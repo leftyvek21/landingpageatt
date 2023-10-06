@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#curriculo">Currículo</a></li>
+                <li><a href="#github">Github</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+     <section id="home">
+        <h1>Olá, sou João Victor Nogueira Guedes</h1>
+        <img id="foto1" src="sua_foto.jpg" whidth="470" height="340" alt="Minha Foto">
+        <p><h1>Breve resumo da minha história e objetivos profissionais.</h1>
+        <p>Desde criança sempre gostei de mexer com coisas que voltassem a internet ou algo do tipo e criei mais gosto ainda depois de grande, acho que foi isso o meu boost pra fazer essa faculdade, 
+            Busco uma vaga no mercado onde possa colocar minhas habilidades em prática e colaborar com
+            equipes de trabalho, tendo o crescimento da organização e o desenvolvimento pessoal e profissional
+            como focos principais.</p>
+        <p><h1>Minhas habilidades pessoais incluem </p></h1>
+        <p>Sempre desde novinho trabalhei com meu pai com refrigeração, logo aprendi tudo sobre, e tambem mexo com energia, e uma outra é que eu dirijo muito bem.</p>
+        <p><h1>Meus hobbies são:</p></h1>
+        <p>Gosto muito de jogar bola, estou indo para academia regularmente, gosto de ir a praia e não perco nenhum jogo do MENGUDO.</p>
+         <p><h1>HINO DO FLAMENGO E OS GOLS DE 2019 DA LIBERTADORES</h1></p>
+
+    <audio controls id="audio">
+        <source src="hino-flamengo.mp3" type="audio/mp3" />
+        </audio>
+  
+      <video id="video" controls>
+        <source src="flamengo2019.mp4" type="video/mp4" />
+            </video>
+
+        <p><h1>Resumo da minha vida acadêmica e planos para o futuro.</p></h1>
+        <p>Antes eu não gostava muito de estudar, hoje estou pegando gosto pela faculdade, pretendo ser muito rico com varias fontes de renda e construí uma família com minha namorada.</p>
+        <p><h1>Matérias na faculdade e planos futuros de carreira.</p></h1>
+        <a class="nav-link" href="file:///C:/Users/Cliente/Desktop/landing%20page/materias.html">Clique aqui pra visualizar</a>
+        
+    </section>
+    
+    <section id="curriculo">
+        <h2>Meu Currículo</h2>
+        <p>Aqui está o meu currículo profissional:</p>
+                    <a href="file:///C:/Users/Cliente/Desktop/landing%20page/fotocurriculo.html">
+                <img src="curriculo.jpg.jpg" whidth="470" height="340" alt="Meu currículo">
+            </a>
+    </section>
+  
+ 
+    <section id="github">
+        <h2>Meu Github</h2>
+        <a href="https://github.com/leftyvek21">
+            <img src="github_logo.png" alt="GitHub Logo">
+        </a>
+    </section>
+   
+       <section id="servicos">
+        <h2>Serviços</h2>
+        <table>
+            <tr>
+                <th>Tipo de Página</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Página Estática HTML/CSS</td>
+                <td>R$ 500,00</td>
+            </tr>
+            <tr>
+                <td>Página Dinâmica</td>
+                <td>R$ 800,00</td>
+            </tr>
+            <tr>
+                <td>Página Avançada</td>
+                <td>R$ 1200,00</td>
+            </tr>
+        </table>
+    </section>
+
+        <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="enviar.php" method="POST">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tipo">Pessoa física ou jurídica:</label>
+            <select id="tipo" name="tipo">
+                <option value="pessoa_fisica">Pessoa Física</option>
+                <option value="pessoa_juridica">Pessoa Jurídica</option>
+            </select>
+
+            <label for="horario_contato">Melhor horário de contato:</label>
+            <input type="text" id="horario_contato" name="horario_contato">
+
+            <label for="servico">Tipo de serviço desejado:</label>
+            <textarea id="servico" name="servico"></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 NOG</p>
+    </footer>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Voltar ao Ínicio da Página</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
